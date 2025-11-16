@@ -1,0 +1,308 @@
+body {
+    background: linear-gradient(135deg, #10152B 70%, #1d284d 100%);
+    color: #e4e7f6;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    padding: 30px 0 20px 0;
+    background: transparent;
+    border-bottom: 1.5px solid #232a4a;
+}
+.header-content {
+    max-width: 1020px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.site-logo {
+    width: 58px;
+    height: 58px;
+    margin-right: 12px;
+}
+.site-title {
+    color: #52cbf8;
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 1.7px;
+}
+.nav-links {
+    display: flex;
+    gap: 34px;
+}
+.nav-link {
+    color: #e4e7f6;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.08rem;
+    border-radius: 6px;
+    padding: 7px 18px;
+    transition: background 0.18s;
+}
+.nav-link:hover {
+    background: #232a4a;
+    color: #52cbf8;
+}
+
+/* Main */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 20px 40px 20px;
+}
+.hero h1 {
+    color: #52cbf8;
+    margin-bottom: 10px;
+    font-size: 2.1em;
+}
+.description {
+    margin-bottom: 34px;
+    font-size: 1.07em;
+    color: #b3b8de;
+}
+.filters {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+}
+.filter-input {
+    background: #232a4a;
+    color: #e4e7f6;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    width: 180px;
+}
+.filter-btn {
+    background: #52cbf8;
+    color: #10152B;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.teachers-heading {
+    text-align: center;
+    color: #b3b8de;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 34px;
+    font-size: 1.55rem;
+    margin-top: 30px;
+}
+.teachers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+    gap: 32px;
+}
+.teacher-card {
+    background: #223694;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 3px 14px rgba(16, 21, 43, 0.32);
+    padding: 22px 18px 19px 18px;
+    transition: box-shadow 0.18s;
+    min-height: 350px;
+}
+.teacher-card:hover {
+    box-shadow: 0 6px 23px rgba(81, 203, 248, 0.10), 0 1.5px 15px #10152B66;
+}
+.teacher-photo {
+    width: 112px;
+    height: 112px;
+    border-radius: 11px;
+    object-fit: cover;
+    margin-bottom: 16px;
+    background: #183b7e;
+}
+.teacher-info {
+    text-align: center;
+}
+.teacher-name {
+    color: #52cbf8;
+    font-size: 1.15rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+.teacher-subjects {
+    font-size: 1rem;
+    color: #b3b8de;
+    margin-bottom: 8px;
+    display: block;
+}
+.teacher-fee {
+    font-size: 1.02rem;
+    color: #86f2d2;
+    margin-top: 7px;
+    font-weight: 500;
+}
+.session-offer {
+    color: #52cbf8;
+    font-size: 0.94rem;
+    font-weight: 500;
+    display: block;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 21;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background: rgba(28, 46, 110, 0.85);
+}
+.modal-content {
+    background: #192045;
+    margin: 80px auto;
+    padding: 36px 34px 26px 34px;
+    border-radius: 14px;
+    width: 90%;
+    max-width: 430px;
+    color: #e4e7f6;
+    position: relative;
+    box-shadow: 0 6px 24px #10152B77;
+}
+.close-button {
+    color: #52cbf8;
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.tutor-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-size: 1rem;
+}
+.tutor-form input {
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    background: #232a4a;
+    color: #e4e7f6;
+    font-size: 1rem;
+}
+.submit-btn {
+    background: #52cbf8;
+    color: #10152B;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 1.06rem;
+    cursor: pointer;
+    transition: background 0.16s;
+}
+.submit-btn:hover {
+    background: #86f2d2;
+}
+
+footer {
+    background: #10152B; /* or use another dark color matching your theme */
+    color: #524fc7;
+    padding: 36px 25px 24px 25px;
+    text-align: center;
+    font-size: 1.18rem;
+    font-weight: 600;
+    box-shadow: 0 -6px 24px rgba(104, 97, 217, 0.08), 0 -1.5px 8px #dcd6f7cc;
+    border-top: 2px solid #232a4a; /* Update border to a matching dark shade if desired */
+}
+
+
+.footer-bar {
+    background: #10152B;
+    color: #939ed6;
+    text-align: center;
+    padding: 22px 0 14px 0;
+    font-size: 1.08rem;
+    margin-top: 50px;
+    border-top: 1.5px solid #232a4a;
+}
+.footer-bar a {
+    color: #52cbf8;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.teacher-age {
+    color: #ffd700;
+    font-size: 0.99rem;
+    margin-bottom: 8px;
+    display: block;
+}
+.modal {
+    z-index: 1002;
+}
+
+
+#businessModal .modal-content p {
+    font-size: 1.08rem;
+    color: #e4e7f6;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+#businessModal .modal-content a {
+    color: #52cbf8;
+    text-decoration: underline;
+}
+
+footer {
+    background: linear-gradient(90deg, #d9eefd 55%, #e5e2fc 100%);
+    color: #524fc7;
+    padding: 36px 25px 24px 25px;
+    text-align: center;
+    font-size: 1.18rem;
+    font-weight: 600;
+    box-shadow: 0 -6px 24px rgba(104, 97, 217, 0.08), 0 -1.5px 8px #dcd6f7cc;
+    border-top: 2px solid #c5c1ff;
+}
+
+
+
+.footer-contact {
+    font-size: 1.16rem;
+    letter-spacing: 1.2px;
+}
+
+.footer-contact a {
+    color: #6b79c6;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.22s;
+    padding-left: 5px;
+}
+.footer-contact a:hover {
+    color: #9b93e0;
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    font-size: 1.05rem;
+    color: #715fa9;
+    margin-top: 8px;
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sync Study</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <img src="logo.png" alt="Sync Study Logo" class="site-logo">
+                <span class="site-title">Sync Study</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="nav-link" id="searchLink">Search</a>
+                <a href="#" class="nav-link" id="becomeTutorLink">Become a Tutor</a>
+                <a href="#" class="nav-link" id="forBusinessLink">For Business</a>
+                <a href="#site-footer" class="nav-link" id="contactLink">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Find an online math tutor to help you study</h1>
+            <p class="description">
+                Say goodbye to math troubles with a skilled tutor. Discover tricks to solve problems and understand math principles.
+            </p>
+        </section>
+        <section class="filters">
+            <input type="text" placeholder="I want to learn..." class="filter-input">
+            <input type="text" placeholder="Price per lesson" class="filter-input">
+            <input type="text" placeholder="Country of birth" class="filter-input">
+            <input type="text" placeholder="Availability" class="filter-input">
+            <button class="filter-btn">Apply Filters</button>
+        </section>
+        
+        <h2 class="teachers-heading">Meet Our Teachers</h2>
+        <div class="teachers-grid">
+            <div class="teacher-card">
+                <img src="Ridhima Mathaur.png" alt="Ridhima Mathaur" class="teacher-photo">
+                <div class="teacher-info">
+                    <span class="teacher-name">Ridhima Mathaur</span>
+                    <span class="teacher-age">Age: 28</span>
+                    <span class="teacher-subjects">Mathematics (Grades 6–12)</span>
+                    <span class="teacher-fee">₹600 per session<br><span class="session-offer">First session free</span></span>
+                </div>
+            </div>
+            <div class="teacher-card">
+                <img src="Angelia Mehra.png" alt="Angelia Mehra" class="teacher-photo">
+                <div class="teacher-info">
+                    <span class="teacher-name">Angelia Mehra</span>
+                    <span class="teacher-age">Age: 32</span>
+                    <span class="teacher-subjects">English & Physics<br>Familiar with Moroccan culture</span>
+                    <span class="teacher-fee">₹600 per session<br><span class="session-offer">First session free</span></span>
+                </div>
+            </div>
+            <div class="teacher-card">
+                <img src="Ameer Mehta.png" alt="Ameer Mehta" class="teacher-photo">
+                <div class="teacher-info">
+                    <span class="teacher-name">Ameer Mehta</span>
+                    <span class="teacher-age">Age: 35</span>
+                    <span class="teacher-subjects">Engineering Mathematics & Physics</span>
+                    <span class="teacher-fee">₹750 per session<br><span class="session-offer">First session free</span></span>
+                </div>
+            </div>
+            <div class="teacher-card">
+                <img src="Firoz Ahmed.png" alt="Firoz Ahmed" class="teacher-photo">
+                <div class="teacher-info">
+                    <span class="teacher-name">Firoz Ahmed</span>
+                    <span class="teacher-age">Age: 37</span>
+                    <span class="teacher-subjects">Computer Fundamentals & Python</span>
+                    <span class="teacher-fee">₹700 per session<br><span class="session-offer">First session free</span></span>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <!-- Modal for Become a Tutor Form -->
+    <div class="modal" id="tutorModal">
+        <div class="modal-content">
+            <span class="close-button" id="closeModal">&times;</span>
+            <h2>Become a Tutor</h2>
+            <form class="tutor-form">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="18" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="contactNumber">Contact Number:</label>
+                <input type="tel" id="contactNumber" name="contactNumber" required>
+                <label for="specialization">Your Specialization:</label>
+                <input type="text" id="specialization" name="specialization" required>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal for Search Tutor -->
+    <div class="modal" id="searchModal">
+        <div class="modal-content">
+            <span class="close-button" id="closeSearchModal">&times;</span>
+            <h2>Search for a Tutor</h2>
+            <form class="search-form">
+                <label for="searchSubject">Subject:</label>
+                <input type="text" id="searchSubject" name="searchSubject" placeholder="E.g. Math, Physics">
+                <label for="searchGrade">Grade:</label>
+                <input type="text" id="searchGrade" name="searchGrade" placeholder="E.g. 8th, 12th">
+                <label for="searchAge">Teacher's Age (optional):</label>
+                <input type="number" id="searchAge" name="searchAge" min="18" placeholder="E.g. 28">
+                <button type="submit" class="submit-btn">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal for For Business -->
+    <div class="modal" id="businessModal">
+        <div class="modal-content">
+            <span class="close-button" id="closeBusinessModal">&times;</span>
+            <h2>Sync Study for Business</h2>
+            <p>
+              You are making impressive strides in your educational journey, and Sync Study is here to accelerate your success. This innovative platform seamlessly connects motivated learners with qualified tutors, providing a structured and supportive environment for personalized learning. With Sync Study, students can access expert guidance tailored to their unique needs, enabling a deeper understanding of subjects and the achievement of academic milestones. 
+              More than just a tutoring service, Sync Study fosters meaningful connections that inspire continuous growth and lasting accomplishments.<br><br>
+              Contact: <b>+9198765xxxxx</b><br>
+              Email: <a href="mailto:codingmonks@gmail.com">codingmonks@gmail.com</a>
+            </p>
+        </div>
+    </div>
+    
+    <footer>
+  <div class="footer">
+    <div class="footer-contact">
+      📧 Contact: 
+      <a href="mailto:codingmonks@gmail.com">codingmonks@gmail.com</a>
+    </div>
+    <div class="footer-copyright">
+      &copy; 2025 Sync Study | All rights reserved.
+    </div>
+  </div>
+</footer>
+
+
+    <script>
+      // Tutor modal logic
+      const tutorModal = document.getElementById('tutorModal');
+      const becomeTutorBtn = document.getElementById('becomeTutorLink');
+      const closeTutorBtn = document.getElementById('closeModal');
+      becomeTutorBtn.onclick = function() {
+        tutorModal.style.display = "block";
+      }
+      closeTutorBtn.onclick = function() {
+        tutorModal.style.display = "none";
+      }
+      // Search modal logic
+      const searchModal = document.getElementById('searchModal');
+      const searchBtn = document.getElementById('searchLink');
+      const closeSearchBtn = document.getElementById('closeSearchModal');
+      searchBtn.onclick = function() {
+        searchModal.style.display = "block";
+      }
+      closeSearchBtn.onclick = function() {
+        searchModal.style.display = "none";
+      }
+      // For Business modal logic
+      const businessModal = document.getElementById('businessModal');
+      const businessBtn = document.getElementById('forBusinessLink');
+      const closeBusinessBtn = document.getElementById('closeBusinessModal');
+      businessBtn.onclick = function() {
+        businessModal.style.display = "block";
+      }
+      closeBusinessBtn.onclick = function() {
+        businessModal.style.display = "none";
+      }
+      // Close modals if clicking outside
+      window.onclick = function(event) {
+        if (event.target == tutorModal) tutorModal.style.display = "none";
+        if (event.target == searchModal) searchModal.style.display = "none";
+        if (event.target == businessModal) businessModal.style.display = "none";
+      }
+    </script>
+</body>
+</html>
