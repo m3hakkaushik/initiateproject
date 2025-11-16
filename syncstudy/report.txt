@@ -1,0 +1,55 @@
+Sync Study Hackathon Pitch (20 minutes)
+Opening (2 minutes)
+Introduce the problem: Many students struggle to find personalized, accessible, and collaborative learning support. Traditional studying can feel isolating and ineffective without the right guidance or peer connections.
+
+Present the core solution: Sync Study is a peer tutoring platform that simplifies connecting students with effective tutors instantly, making learning collaborative, flexible, and tailored to individual needs.
+
+Problem Statement (3 minutes)
+Discuss common studying challenges: lack of engagement, difficulty understanding complex topics without help, and scheduling conflicts with tutors.
+
+Emphasize the impact of these challenges on student confidence and academic performance.
+
+Mention statistical evidence or motivation from research: Peer tutoring users seeing up to 25% grade improvement and 30% increased confidence.
+
+Introduction to Sync Study (3 minutes)
+Describe Sync Study’s main functionality:
+
+Fast matching with peer tutors based on learning preferences.
+
+Real-time booking for one-on-one or group sessions.
+
+Rating and feedback system to ensure quality tutoring and continuous improvement.
+
+Highlight the platform’s goal of making education seamless and enjoyable, replacing jargon and boring lectures with personalized support.
+
+Key Features (5 minutes)
+Instant Match: How Sync Study uses smart algorithms to quickly match students with tutors who understand their learning style.
+
+Scheduling Flexibility: User-friendly interface for booking sessions anytime, anywhere.
+
+Collaborative Learning: Options for group sessions that foster mutual growth.
+
+Quality Assurance: Feedback ratings help maintain tutor quality and support improvement.
+
+Additional elements like session reminders and a dashboard for tracking learning progress.
+
+Technical Overview (4 minutes)
+Tech stack overview: ReactJS frontend, Firebase backend and database.
+
+API integration for tutor matching and session scheduling.
+
+How the platform ensures scalability and security.
+
+Prototype status: demo-ready for hackathon judges and pilot testing.
+
+Impact and Vision (2 minutes)
+Highlight Sync Study’s potential to build a connected student community, improve GPA, and boost learner confidence.
+
+Future plans: enhanced AI support for matching, expanded resources, and real-time chat support.
+
+Vision to become the go-to platform for collaborative and joyful learning.
+
+Closing (1 minute)
+Recap the core mission: empowering students through peer-to-peer tutoring that’s easy, effective, and inclusive.
+
+Invite judges and participants to explore the demo and envision the future of smart education with Sync Study.
